@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dare.Devils | Content Creation Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dare Devils</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Dare Devils, we specialize in crafting exceptional content that sets your brand apart. Our mission is to create unique, engaging, and exclusive content tailored to your needs. We believe in pushing boundries to help your brand stand out in a crowded marketplace. Let us bring your vision to life and elevate your brand with compelling storytelling and innovative strategies. .</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="IMG-20240220-WA01113.jpg" alt="Image 1">
+            <img src="KOLORO_1720873859474.jpg" alt="Image 2">
+            <img src="DSC_0050.jpg" alt="Image 3">
+            <img src="KOLORO1718550408953.jpg" alt="Image 4">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:dareletsoko@gmail.com">dareletsoko@gmail.com</a></p>
+        <p>Phone: <a href="tel:+27813033808">+1 (234) 567-890</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Dare Devils. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+### CSS (styles.css)
+
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-container img {
+    margin: 10px;
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #fff;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 10px;
+}
+```
